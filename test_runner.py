@@ -51,7 +51,7 @@ def main():
 
     
     for i in range(testercnt):
-        imgpth=r'C:\Users\Liang\OneDrive\Documents\pytorch-tutorial-master\pytorch-tutorial-master\tester'+str(i)+".png";
+        imgpth=r'tester'+str(i)+".png";
         image=Image.open(imgpth)
         image = image.convert('L')
         image = image.resize((28,28), Image.LANCZOS)
